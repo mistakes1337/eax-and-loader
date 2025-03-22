@@ -1,10 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-
-#include <iostream>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <Psapi.h>
-#include <imagehlp.h>
+#include "includes.h"
 #include "dllData.h"
 
 DWORD procFind(const std::wstring& processName) {
