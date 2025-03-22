@@ -1,6 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "includes.h"
-#include "dllData.h"
 
 DWORD procFind(const std::wstring& processName) {
     PROCESSENTRY32W process_info;
